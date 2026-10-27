@@ -19,6 +19,14 @@ export default function Contact() {
           <dt>Number</dt>
           <dd><a href="tel:+51956827528">+51 956 827 528</a></dd>
         </div>
+        <div>
+          <dt>Instagram</dt>
+          <dd><a href="https://www.instagram.com/davicho_malca/" target="_blank" rel="noopener noreferrer">@davicho_malca</a></dd>
+        </div>
+        <div>
+          <dt>Facebook</dt>
+          <dd><a href="https://web.facebook.com/david.malca.7927/?locale=es_LA" target="_blank" rel="noopener noreferrer">David Malca</a></dd>
+        </div>
       </dl>
 
       <p className="question">Let’s make something great together.</p>

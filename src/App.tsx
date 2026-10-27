@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import MyProcess from "./pages/MyProcess";
 import DesignTips from "./pages/DesignTips";
+import Contact from "./pages/Contact";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -19,7 +20,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/my-process" element={<MyProcess />} />
           <Route path="/design-tips" element={<DesignTips />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*"element={<Home />} />
         </Routes>
       </main>
       <Footer />

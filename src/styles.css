@@ -49,5 +49,10 @@ form .btn{justify-self:start}
 .comments li{border-top:1px solid var(--line);padding:16px 0}
 .comments time{color:var(--muted);font-size:13px;margin-left:10px}
 .comments p{margin:4px 0 0}.empty{color:var(--muted)}
+.contact{margin:36px 0;border-top:1px solid var(--muted)}
+.contact div{display:flex;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
+.contact dt{width:90px;color:var(--muted);font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding-top:3px}
+.contact dd{margin:0;font-size:1.2rem;font-weight:600}
+.contact a{text-decoration:none;border-bottom:2px solid var(--lime)}
 .footer{border-top:1px solid var(--line);margin-top:60px;padding:30px 0;color:var(--muted);font-size:14px}
 @media(max-width:700px){.welcome{grid-template-columns:1fr;gap:24px}.portrait{max-width:280px}body{font-size:17px}.grid{grid-template-columns:1fr}.hero{padding-top:50px}}

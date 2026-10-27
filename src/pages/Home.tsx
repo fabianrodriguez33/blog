@@ -12,6 +12,7 @@ export default function Home() {
       </section>
 
       <section className="container welcome">
+        <img className="portrait" src="/images/david.jpg" alt={`Portrait of ${AUTHOR}, the designer behind the blog`} />
         <p>
           Hi, I’m {AUTHOR}. Welcome to Inside a Designer’s World, a place to talk about the work that happens before a design is finished. Here, I share small lessons from making posters, editing photos, and creating content for digital platforms. Sometimes an idea works on the first try. Other times, I change the colors or move the text ten times. That’s normal, and that’s what makes the process interesting. If you like design, or you’re curious about how it works, you’re in the right place. Take a look at my posts and tell me what you think!
         </p>
@@ -36,7 +37,7 @@ export default function Home() {
 
       <section className="container">
         <figure>
-          <img src="/images/desk.svg" alt="A designer's desk with a screen, sketches and pencils" />
+          <img className="workspace" src="/images/escritorio.jpg" alt="My desk at night with a poster design open on the screen" />
           <figcaption>My workspace: where every design starts, changes and starts again.</figcaption>
         </figure>
       </section>

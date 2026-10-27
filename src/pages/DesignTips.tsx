@@ -17,6 +17,14 @@ export default function DesignTips() {
         <li><strong>Ask for another opinion.</strong> After looking at the same design for hours, it’s easy to miss something. A friend can notice details that you didn’t see.</li>
       </ol>
       <figure>
+        <img src="/images/typography.svg" alt="A bold poster with only two typefaces and one message" />
+        <figcaption>Two typefaces and one clear message are usually enough.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/whitespace.svg" alt="A crowded layout next to a layout with white space" />
+        <figcaption>The same content looks clearer when it has space to breathe.</figcaption>
+      </figure>
+      <figure>
         <img src="/images/palette.svg" alt="A simple four-color palette with a sample of readable text" />
         <figcaption>A simple palette keeps text easy to read.</figcaption>
       </figure>

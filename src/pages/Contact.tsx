@@ -1,5 +1,5 @@
 import { AUTHOR } from "../config";
-import { FacebookIcon, InstagramIcon, MailIcon, PhoneIcon } from "../components/Icons";
+import { CameraIcon, FacebookIcon, InstagramIcon, MailIcon, PhoneIcon, PortfolioIcon } from "../components/Icons";
 
 export default function Contact() {
   return (
@@ -28,7 +28,17 @@ export default function Contact() {
           <dt><FacebookIcon />Facebook</dt>
           <dd><a href="https://web.facebook.com/david.malca.7927/?locale=es_LA" target="_blank" rel="noopener noreferrer">David Malca</a></dd>
         </div>
+        <div>
+          <dt><PortfolioIcon />Portfolio</dt>
+          <dd><a href="https://www.behance.net/davidmalca1" target="_blank" rel="noopener noreferrer">My work on Behance</a></dd>
+        </div>
+        <div>
+          <dt><CameraIcon />Photo album</dt>
+          <dd><a href="https://www.pexels.com/es-es/@david-malca-2163526568/gallery/" target="_blank" rel="noopener noreferrer">My photos on Pexels</a></dd>
+        </div>
       </dl>
+
+      <p>My portfolio is not fully up to date yet, but you can see some of my designs on Behance and my photographs in my Pexels album.</p>
 
       <p className="question">Let’s make something great together.</p>
     </section>

@@ -31,6 +31,20 @@ export const InstagramIcon = () => (
   </svg>
 );
 
+export const PortfolioIcon = () => (
+  <svg {...base}>
+    <rect x="3" y="7" width="18" height="13" rx="2" />
+    <path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18" />
+  </svg>
+);
+
+export const CameraIcon = () => (
+  <svg {...base}>
+    <path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+    <circle cx="12" cy="13" r="3.5" />
+  </svg>
+);
+
 export const FacebookIcon = () => (
   <svg {...base}>
     <path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V8.5a.5.5 0 0 1 .5-.5z" />
